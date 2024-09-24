@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog của Tôi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        article {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        small {
+            color: gray;
+        }
+        .comments {
+            margin-top: 20px;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+        blockquote {
+            margin: 10px 0;
+            padding: 10px;
+            background: #f9f9f9;
+            border-left: 5px solid #ccc;
+        }
+        form {
+            margin-top: 20px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px 15px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Blog của Tôi</h1>
+</header>
+
+<article>
+    <h2>Bài Viết 1</h2>
+    <small>Ngày: 24/09/2024 | Tác giả: Nguyễn Văn A</small>
+    <p>Đây là nội dung của bài viết 1. Nó nói về chủ đề thú vị nào đó.</p>
+
+    <div class="comments">
+        <h3>Bình luận:</h3>
+        <blockquote>
+            <strong>Nguyễn Thị B</strong>: Một bài viết rất hay!
+        </blockquote>
+        <blockquote>
+            <strong>Trần Văn C</strong>: Tôi rất thích bài viết này.
+        </blockquote>
+
+        <h4>Thêm bình luận:</h4>
+        <form>
+            <input type="text" placeholder="Tên của bạn" required>
+            <textarea rows="4" placeholder="Nội dung bình luận" required></textarea>
+            <button type="submit">Gửi bình luận</button>
+        </form>
+    </div>
+</article>
+
+<article>
+    <h2>Bài Viết 2</h2>
+    <small>Ngày: 23/09/2024 | Tác giả: Trần Văn D</small>
+    <p>Nội dung của bài viết 2 cũng rất thú vị và đáng chú ý.</p>
+
+    <div class="comments">
+        <h3>Bình luận:</h3>
+        <blockquote>
+            <strong>Phạm Văn E</strong>: Tôi đồng ý với ý kiến trong bài viết.
+        </blockquote>
+
+        <h4>Thêm bình luận:</h4>
+        <form>
+            <input type="text" placeholder="Tên của bạn" required>
+            <textarea rows="4" placeholder="Nội dung bình luận" required></textarea>
+            <button type="submit">Gửi bình luận</button>
+        </form>
+    </div>
+</article>
+
+</body>
+</html>
